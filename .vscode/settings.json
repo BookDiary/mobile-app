@@ -1,3 +1,34 @@
 {
-  "cSpell.words": ["Accordian", "Ananya", "Rajesh"]
+  "cSpell.words": ["Accordian", "Ananya", "Rajesh"],
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "files.associations": {
+    "*.tsx": "typescriptreact",
+    "*.ts": "typescript"
+  },
+
+  "tailwindCSS.experimental.classRegex": [
+    "className\\s*=\\s*[\"'`]([^\"'`]*)[\"'`]", // ✅ JSX/TSX className 전용
+    "cn\\(([^)]*)\\)" // ✅ tailwind-merge, clsx 등에서 자주 사용됨
+  ]
 }

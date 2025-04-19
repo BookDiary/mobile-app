@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    // 🌟 필수
+    "expo.expo-tools", // ✅ Expo 전용 툴: Run on device, Debug, QR 실행 등
+    "msjsdiag.vscode-react-native", // React Native 디버깅 지원
+
+    // 🧠 자동완성 및 코드 도우미
+    "esbenp.prettier-vscode", // 코드 자동 포맷 (Prettier)
+    "dbaeumer.vscode-eslint", // ESLint 실시간 체크 + 수정
+    "bradlc.vscode-tailwindcss", // Tailwind / NativeWind className 자동완성
+
+    // 🧠 보조 AI
+    "GitHub.copilot", // GitHub Copilot (자동완성)
+    "GitHub.copilot-chat", // Copilot Chat (대화형 도움말, 선택)
+
+    // 💄 개발 편의
+    "formulahendry.auto-rename-tag", // JSX 태그 자동 이름 변경
+    "dsznajder.eslint-plugin-tslint", // (선택) TSLint 호환
+
+    // 📱 스타일링
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+    "gluestack.gluestack-vscode", // UI 컴포넌트 자동 완성 (사용 시)
+    "buildwithlayer.gluestack-ui-integration-expert-6atmf", // 코파일럿 AI -- UI 컴포넌트 키트 관련
+
+    // ✨ 코드 지능 향상
+    "visualstudioexptteam.vscodeintellicode" // AI 기반 자동완성 향상 (선택)
+  ]
+}
