@@ -61,6 +61,7 @@ export default function RootLayout() {
         <GluestackUIProvider mode={colorMode}>
           <Stack screenOptions={{ animation: "slide_from_right" }}>
             <Stack.Screen name="index" options={{ headerShown: false }} />
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
             <Stack.Screen name="+not-found" options={{ headerShown: false }} />
             <Stack.Screen
               name="accordion"

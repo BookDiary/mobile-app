@@ -8,21 +8,23 @@
     "esbenp.prettier-vscode", // 코드 자동 포맷 (Prettier)
     "dbaeumer.vscode-eslint", // ESLint 실시간 체크 + 수정
     "bradlc.vscode-tailwindcss", // Tailwind / NativeWind className 자동완성
+    "austenc.tailwind-docs", // Tailwind CSS Docs (className에 대한 설명)
+    "bourhaouta.tailwindshades", // Tailwind CSS 색상 팔레트 (색상 코드 자동 완성)
 
     // 🧠 보조 AI
-    "GitHub.copilot", // GitHub Copilot (자동완성)
     "GitHub.copilot-chat", // Copilot Chat (대화형 도움말, 선택)
+    "github.copilot",
 
     // 💄 개발 편의
     "formulahendry.auto-rename-tag", // JSX 태그 자동 이름 변경
     "dsznajder.eslint-plugin-tslint", // (선택) TSLint 호환
+    "gruntfuggly.todo-tree", // TODO, FIXME, NOTE 등 주석 수집 & 하이라이트
+    "eridem.vscode-postman", // Postman API 요청 관리
 
     // 📱 스타일링
     "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
     "gluestack.gluestack-vscode", // UI 컴포넌트 자동 완성 (사용 시)
-    "buildwithlayer.gluestack-ui-integration-expert-6atmf", // 코파일럿 AI -- UI 컴포넌트 키트 관련
-
-    // ✨ 코드 지능 향상
-    "visualstudioexptteam.vscodeintellicode" // AI 기반 자동완성 향상 (선택)
+    "antiantisepticeye.vscode-color-picker", // 색상 코드 프리뷰 및 변경
+    "harryhopkinson.vs-code-runner" // 코드 실행도구 (선택)
   ]
 }
